@@ -5,14 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Old Mountain Flower Co.</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 40px; }
-    h1 { color: #0366d6; text-align: center;}
-    p {text-align: center;}
+    body { 
+      font-family: Arial, sans-serif; 
+      margin: 20px; 
+      text-align: center; 
+      line-height: 1.6;
+    }
+    h1 { 
+      color: #0366d6; 
+      margin-top: 20px; 
+    }
+    img.logo {
+      max-width: 80%; /* scales nicely on mobile */
+      height: auto;
+      margin: 0 auto 20px auto;
+      display: block;
+    }
+    p {
+      margin: 10px 0;
+    }
+    a.email-link {
+      color: #0366d6;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a.email-link:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
-  <img src="/logo.png"/>
+  <img src="/logo.png" alt="Old Mountain Flower Company Logo" class="logo"/>
   <h1>Old Mountain Flower Company</h1>
   <p>Coming soon 2026</p>
+  <p>For information or questions, email us at 
+    <a href="mailto:info@oldmountainflower.com" class="email-link">
+      info@oldmountainflower.com
+    </a>.
+  </p>
 </body>
 </html>
